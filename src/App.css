@@ -1,0 +1,92 @@
+html, body, #root, .App {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+}
+
+.word {
+  font-weight: bold;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.tiny_desc {
+  color: gray;
+  font-style: italic;
+  text-align: center;
+}
+
+.variants {
+  text-align: center;
+}
+
+.variant_item {
+  padding: 15px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 2px;
+  background: #f0f0f0;
+  display: inline-block;
+}
+
+.variant_item:hover {
+  background: #e6e6e6;
+}
+
+.stats {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.progress_bar {
+  margin: 10px;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 500px;
+  background: #eaeaea;
+  height: 20px;
+  overflow: hidden;
+}
+
+.success_progress_bar {
+  background: lightgreen;
+  height: 100%;
+  width: 0;
+}
+
+.progress_counts {
+  margin-bottom: 10px;
+  font-style: italic;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lastError {
+  text-align: center;
+}
+
+.true_word {
+  color: forestgreen;
+  font-weight: bold;
+}
+
+.error_word {
+  color: red;
+  text-decoration: line-through;
+}
+
+.configs {
+  padding:10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
